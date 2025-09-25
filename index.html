@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="utf-8">
-  <title>My New Website</title>
+  <title>Project 2</title>
   <meta name="description" content="This site will serve as the hub for many sub responsive layouts">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -27,39 +27,34 @@
 
 <body>
   <!-- Place your site's HTML here -->
-  <h1 id="top">Home Page</h1>
-  <div class="wrapper">
-  <h2>Information</h2>
-  <p>This text will display on your site! Jan 19</p>
-  <div>
-    <a href="https://en.wikipedia.org/wiki/Chromodoris_willani/" target="_blank">
-      <img src="./img/ChromodorisWillani1.jpg" alt="sea slug image"/>
-    </a>
-    <a href="#">
-      <img src="./img/seals1.jpg" alt="two seals">
-    </a>
-    <img src="./img/mantaray1.jpg" alt="">
-  </div>
-  </div>
-  <div class="wrapper">
-   <ul class="home-links">
-    <li>
-    <a href="./about.me.html">
-      <p> About Me </p>
-    </a>
-    </li>
-    <li>
-    <a href="./contact.info.html">
-      <p>Contact Information</p>
-    </a>
-    </li>
-    <li>
-    <a href="#top">
-      <p>Back to Top</p>
-    </a>
-    </li>
-  </ul>
-  </div>
+  <header>
+    <h1>
+      Form
+    </h1>
+  </header>
+  <main>
+    <h2>
+      Welcome
+    </h2>
+    <div class="wrapper">
+      <form action="" method="get" class="form-example">
+        <div class="form-example">
+          <label for="name">Enter your name: </label>
+          <input type="text" name="name" id="name" required />
+        </div>
+        <div class="form-example">
+          <label for="email">Enter your email: </label>
+          <input type="email" name="email" id="email" required />
+        </div>
+        <div class="form-example">
+          <input type="submit" value="Subscribe!" />
+        </div>
+      </form>
+    </div>
+  </main>
+  <footer>
+
+  </footer>
   <script src="js/main.js"></script>
 </body>
 
