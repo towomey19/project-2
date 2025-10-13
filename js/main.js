@@ -5,3 +5,4 @@ const body = document.querySelector('body');
 blueButton.addEventListener('click', () => {
     body.classList.toggle('blue');
 });
+
