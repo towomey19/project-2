@@ -29,43 +29,44 @@
   <!-- Place your site's HTML here -->
   <header>
     <h1>
-      Form
+      Dreamy Treats
     </h1>
     
     <nav class="main-nav">
-      <a href= "./index.html">Home</a>
-      <a href="./layouts.html">Layouts</a>
-      <a href="./about.html">About</a>
+      <a href= "#our_message">Our Message</a>
+      <a href="#products">Products</a>
+      <a href="#order">Order</a>
     </nav>
   
   </header>
-  <main>
+<main>
+  <section id="our_message">
     <div class="hero">
-<div class="hero-content">
-<h1>Welcome to Our Website</h1>
-<p>Discover amazing things and explore our services.</p>
-
-</div>
-
+      <div class="hero-content">
+        <h1>Premier Dream Eater Snacks</h1>
+        <p>Top of the line Treats for traing your Dream Eater Spirits. Whatever your status boosting needs are, we have it covered. We strive to lift your spirits.</p>
+    </div>
+  </section>
+<section id="products">
      <h2>
-      Layouts
+      Featured Treats
     </h2>
-    <h3>Images Yay</h3>
     <div class="images-yay">
       <a href="#">
-        <img src="./img/clover-and-flowbermeow.png" alt="">
-        <p>Image Title</p>
+        <img src="./img/Confetti_Candy_2_KH3D.png" alt="">
+        <h3>Confetti Candy</h3>
       </a>
       <a href="#">
-        <img src="./img/clover-and-flowbermeow.png" alt="">
-        <p>Image Title</p>
+        <img src="./img/Ice_Dream_Cone_2_KH3D.png" alt="">
+        <h3>Ice Dream Cone</h3>
       </a>
       <a href="#">
-        <img src="./img/clover-and-flowbermeow.png" alt="">
-        <p>Image Title</p>
+        <img src="./img/Shield_Cookie_2_KH3D.png" alt="">
+        <h3>Shield Cookie</h3>
       </a>
     </div>
-
+</section>
+<section id="order">
     <div class="wrapper">
       <form action="" method="get" class="form-example">
         <div class="form-example">
@@ -77,8 +78,7 @@
           <input type="email" name="email" id="email" required />
         </div>
       </form>
-
-  <form action="" method="get" class="form-example">
+      <form action="" method="get" class="form-example">
         <div class="form-example">
           <label for="treat">Choose your treat:</label>
             <select id="treat" name="treat">
@@ -91,16 +91,14 @@
         <div class="form-example">
           <label for="quantity">How many:</label>
           <input type="number" id="quantity" name="quantity" value="1" min="1"
-max="10" step="1">
-
+          max="10" step="1">
         </div>
         <div class="form-example">
           <input type="submit" value="Submit" />
         </div>
       </form>
-
     </div>
-
+</section>
   </main>
   <footer>
     <p>Copyright 2025 Project 2</p>
